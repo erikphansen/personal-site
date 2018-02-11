@@ -1,0 +1,29 @@
+{
+  "name": "erikphansen-dot-com",
+  "version": "0.0.1",
+  "description": "Personal site for Erik P. Hansen (erikphansen.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikphansen/personal-site.git"
+  },
+  "author": "Erik P. Hansen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erikphansen/personal-site/issues"
+  },
+  "homepage": "https://github.com/erikphansen/personal-site#readme",
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "prettier": "^1.10.2"
+  }
+}
