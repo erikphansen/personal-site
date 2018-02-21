@@ -23,3 +23,12 @@ gulp.task('sass', () => {
 gulp.task('build', cb => {
   sequence('clean', 'index', 'sass', cb);
 });
+
+gulp.task('watch', () => {
+  gulp.watch(`${directories.src}/index.html`, ['index']);
+  gulp.watch(`${directories.cssSrc}/**/*.scss`, ['sass']);
+});
+
+gulp.task('default', cb => {
+  sequence('clean', 'build', 'watch', cb);
+});
